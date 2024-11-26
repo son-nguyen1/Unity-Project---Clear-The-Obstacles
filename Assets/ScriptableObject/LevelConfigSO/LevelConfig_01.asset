@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2992adf277ea26148a9a3ef0b4d7dd9a, type: 3}
+  m_Name: LevelConfig_01
+  m_EditorClassIdentifier: 
+  backgroundPrefab: {fileID: 634430194832567793, guid: 37d9c33b848a81f46ad491a3292ac1ca, type: 3}
+  backgroundPosition: {x: 0, y: 42}
+  levelPrefab: {fileID: 8932019957178593866, guid: 7f188bfa02e53ae4292f24e642f7cec4, type: 3}
+  levelDisplayText: 01
+  waveConfig:
+  - obstaclePrefab:
+    - {fileID: 5306124951012654397, guid: a003b0492d7bd4a49b763ce025cac048, type: 3}
+    obstacleCount: 1
+    obstaclePosition: {x: 0, y: 17}
+    obstacleRotation: {x: 0, y: 0, z: 1, w: -0.00000004371139}
+    horizontalSpacing: 0
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 6432221516544658250, guid: 3c39c878225e87b4190e6e0131a9099b, type: 3}
+    obstacleCount: 6
+    obstaclePosition: {x: -7.5, y: 22}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 3
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 6432221516544658250, guid: 3c39c878225e87b4190e6e0131a9099b, type: 3}
+    obstacleCount: 6
+    obstaclePosition: {x: -7.5, y: 27}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 3
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 6432221516544658250, guid: 3c39c878225e87b4190e6e0131a9099b, type: 3}
+    obstacleCount: 6
+    obstaclePosition: {x: -7.5, y: 32}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 3
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 6432221516544658250, guid: 3c39c878225e87b4190e6e0131a9099b, type: 3}
+    obstacleCount: 6
+    obstaclePosition: {x: -7.5, y: 37}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 3
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 6432221516544658250, guid: 3c39c878225e87b4190e6e0131a9099b, type: 3}
+    obstacleCount: 6
+    obstaclePosition: {x: -7.5, y: 42}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 3
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 6432221516544658250, guid: 3c39c878225e87b4190e6e0131a9099b, type: 3}
+    obstacleCount: 6
+    obstaclePosition: {x: -7.5, y: 47}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 3
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 6432221516544658250, guid: 3c39c878225e87b4190e6e0131a9099b, type: 3}
+    obstacleCount: 6
+    obstaclePosition: {x: -7.5, y: 52}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 3
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 6432221516544658250, guid: 3c39c878225e87b4190e6e0131a9099b, type: 3}
+    obstacleCount: 6
+    obstaclePosition: {x: -7.5, y: 57}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 3
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 6432221516544658250, guid: 3c39c878225e87b4190e6e0131a9099b, type: 3}
+    obstacleCount: 6
+    obstaclePosition: {x: -7.5, y: 62}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 3
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 6432221516544658250, guid: 3c39c878225e87b4190e6e0131a9099b, type: 3}
+    obstacleCount: 6
+    obstaclePosition: {x: -7.5, y: 67}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 3
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 6432221516544658250, guid: 3c39c878225e87b4190e6e0131a9099b, type: 3}
+    obstacleCount: 6
+    obstaclePosition: {x: -7.5, y: 72}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 3
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 6432221516544658250, guid: 3c39c878225e87b4190e6e0131a9099b, type: 3}
+    obstacleCount: 6
+    obstaclePosition: {x: -7.5, y: 77}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 3
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 6432221516544658250, guid: 3c39c878225e87b4190e6e0131a9099b, type: 3}
+    obstacleCount: 6
+    obstaclePosition: {x: -7.5, y: 82}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 3
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 6432221516544658250, guid: 3c39c878225e87b4190e6e0131a9099b, type: 3}
+    obstacleCount: 6
+    obstaclePosition: {x: -7.5, y: 87}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 3
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 5376372641826042696, guid: c6ac44f8820ac6f4f8f0989d178845c9, type: 3}
+    obstacleCount: 6
+    obstaclePosition: {x: -7.5, y: 97}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 3
+    verticalSpacing: 0

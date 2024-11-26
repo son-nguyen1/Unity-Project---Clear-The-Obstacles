@@ -1,0 +1,313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2992adf277ea26148a9a3ef0b4d7dd9a, type: 3}
+  m_Name: LevelConfig_09
+  m_EditorClassIdentifier: 
+  backgroundPrefab: {fileID: 634430194832567793, guid: 5ff5e4d7bee76e14692938b4dbd6f779, type: 3}
+  backgroundPosition: {x: 0, y: 42}
+  levelPrefab: {fileID: 8932019957178593866, guid: 7f188bfa02e53ae4292f24e642f7cec4, type: 3}
+  levelDisplayText: 09
+  waveConfig:
+  - obstaclePrefab:
+    - {fileID: 6652750492561906514, guid: a4c6a08a87834464d8667a5f34b4ac2f, type: 3}
+    obstacleCount: 3
+    obstaclePosition: {x: -5.5, y: 17}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0
+    verticalSpacing: 20
+  - obstaclePrefab:
+    - {fileID: 6652750492561906514, guid: a4c6a08a87834464d8667a5f34b4ac2f, type: 3}
+    obstacleCount: 2
+    obstaclePosition: {x: 5.5, y: 27}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0
+    verticalSpacing: 20
+  - obstaclePrefab:
+    - {fileID: 2748482703885325345, guid: c83a9ece95cecdd44abe20556859b08f, type: 3}
+    obstacleCount: 1
+    obstaclePosition: {x: -5.525, y: 17.35}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: -6.9, y: 17.5}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: -6.85, y: 17.6}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: -6.8, y: 17.7}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: -6.75, y: 17.8}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: -6.7, y: 17.9}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: -6.65, y: 18}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 5674313584333073009, guid: 99f1fff0224d5e14f8422500bd4a3e15, type: 3}
+    obstacleCount: 1
+    obstaclePosition: {x: -4.5, y: 27}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 2748482703885325345, guid: c83a9ece95cecdd44abe20556859b08f, type: 3}
+    obstacleCount: 1
+    obstaclePosition: {x: 5.525, y: 27.35}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: 6.9, y: 27.5}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: -0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: 6.85, y: 27.6}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: -0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: 6.8, y: 27.7}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: -0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: 6.75, y: 27.8}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: -0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: 6.7, y: 27.9}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: -0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: 6.65, y: 28}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: -0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 5674313584333073009, guid: 99f1fff0224d5e14f8422500bd4a3e15, type: 3}
+    obstacleCount: 1
+    obstaclePosition: {x: 4.5, y: 37}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 2748482703885325345, guid: c83a9ece95cecdd44abe20556859b08f, type: 3}
+    obstacleCount: 1
+    obstaclePosition: {x: -5.525, y: 37.35}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: -6.9, y: 37.5}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: -6.85, y: 37.6}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: -6.8, y: 37.7}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: -6.75, y: 37.8}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: -6.7, y: 37.9}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: -6.65, y: 38}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 5674313584333073009, guid: 99f1fff0224d5e14f8422500bd4a3e15, type: 3}
+    obstacleCount: 1
+    obstaclePosition: {x: -4.5, y: 47}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 2748482703885325345, guid: c83a9ece95cecdd44abe20556859b08f, type: 3}
+    obstacleCount: 1
+    obstaclePosition: {x: 5.525, y: 47.35}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: 6.9, y: 47.5}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: -0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: 6.85, y: 47.6}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: -0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: 6.8, y: 47.7}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: -0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: 6.75, y: 47.8}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: -0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: 6.7, y: 47.9}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: -0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: 6.65, y: 48}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: -0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 5674313584333073009, guid: 99f1fff0224d5e14f8422500bd4a3e15, type: 3}
+    obstacleCount: 1
+    obstaclePosition: {x: 4.5, y: 57}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 2748482703885325345, guid: c83a9ece95cecdd44abe20556859b08f, type: 3}
+    obstacleCount: 1
+    obstaclePosition: {x: -5.525, y: 57.35}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: -6.9, y: 57.5}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: -6.85, y: 57.6}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: -6.8, y: 57.7}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: -6.75, y: 57.8}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: -6.7, y: 57.9}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 3595291667392756669, guid: fbb1ee2b6d20a3a459bb2ca36ca2e7ee, type: 3}
+    obstacleCount: 11
+    obstaclePosition: {x: -6.65, y: 58}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0.1
+    verticalSpacing: 0
+  - obstaclePrefab:
+    - {fileID: 5674313584333073009, guid: 99f1fff0224d5e14f8422500bd4a3e15, type: 3}
+    obstacleCount: 1
+    obstaclePosition: {x: -4.5, y: 67}
+    obstacleRotation: {x: 0, y: 0, z: 0, w: 0}
+    horizontalSpacing: 0
+    verticalSpacing: 0
