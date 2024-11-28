@@ -10793,7 +10793,7 @@ MonoBehaviour:
   claimOnButton: {fileID: 1510754525}
   claimOffButton: {fileID: 95945530}
   nextRewardReset: 48
-  nextRewardDelay: 24
+  nextRewardDelay: 23
   rewardCheckInterval: 5
   rewardSO: {fileID: 11400000, guid: e7a695526a921f143aac24fc321ed7b5, type: 2}
   rewardsIndex: 0

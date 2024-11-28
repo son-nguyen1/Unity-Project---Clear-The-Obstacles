@@ -31,13 +31,14 @@ namespace DailyRewardsSystem
 
         private const string Reward_Index = "RewardIndex";
         private const string Last_Reward_Claim_DateTime = "LastRewardClaimDateTime";
+        private const string Check_Reward_Availability = "CheckRewardAvailabilityTimer";
 
         private bool canClaimReward = false;
 
         private void Start()
         {
             Initialize();
-            InvokeRepeating("CheckRewardAvailabilityTimer", 0f, rewardCheckInterval);
+            InvokeRepeating(Check_Reward_Availability, 0f, rewardCheckInterval);
         }
 
         /// <summary>
@@ -50,14 +51,10 @@ namespace DailyRewardsSystem
             if (string.IsNullOrEmpty(PlayerPrefs.GetString(Last_Reward_Claim_DateTime)))
             {
                 PlayerPrefs.SetString(Last_Reward_Claim_DateTime, DateTime.UtcNow.Ticks.ToString());
-
-                rewardsIndex = 0;
-                ActivateRewards();
+                ActivateRewardsButton();
             }
-            else
-            {
-                rewardsIndex = PlayerPrefs.GetInt(Reward_Index, 0);
-            }
+            
+            rewardsIndex = PlayerPrefs.GetInt(Reward_Index, 0);            
 
             UpdateGemTrackerTextUI();
             UpdateCoinTrackerTextUI();
@@ -96,15 +93,15 @@ namespace DailyRewardsSystem
                 PlayerPrefs.SetInt(Reward_Index, rewardsIndex);
 
                 ResetRewardClaimedPanels();
-                ActivateRewards();
+                ActivateRewardsButton();
             }
-            else if (elapsedHours >= nextRewardDelay && !canClaimReward)
+            else if (elapsedHours >= nextRewardDelay)
             {
-                ActivateRewards();
+                ActivateRewardsButton();                
             }
-            else
+            else if (elapsedHours <  nextRewardDelay)
             {
-                DeactivateRewards();
+                DeactivateRewardsButton();                
             }
         }
 
@@ -154,10 +151,10 @@ namespace DailyRewardsSystem
 
             PlayerPrefs.SetString(Last_Reward_Claim_DateTime, DateTime.UtcNow.Ticks.ToString());
 
-            DeactivateRewards(); // Reset the flag to begin the timer, after the reward is claimed
+            DeactivateRewardsButton(); // Reset the flag to begin the timer, after the reward is claimed
         }
 
-        private void ActivateRewards()
+        private void ActivateRewardsButton()
         {
             canClaimReward = true; // This flag stops the timer, so it doesn't stack when reward hasn't been claimed.
 
@@ -167,7 +164,7 @@ namespace DailyRewardsSystem
             ResetDailyRewardsCycle();
         }
 
-        private void DeactivateRewards()
+        private void DeactivateRewardsButton()
         {
             canClaimReward = false;
 
@@ -214,11 +211,14 @@ namespace DailyRewardsSystem
             {
                 ResetGameState();
             }
+
+            Debug.Log(canClaimReward);
         }
 
         private void ResetGameState()
         {
             PlayerPrefs.DeleteKey(Reward_Index);
+            PlayerPrefs.DeleteKey(Last_Reward_Claim_DateTime);
             rewardsIndex = 0;
 
             ResetRewardClaimedPanels();
